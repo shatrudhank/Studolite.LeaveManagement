@@ -8,8 +8,7 @@ using System.Threading.Tasks;
 using MediatR;
 namespace Studolite.LeaveManagement.Application
 {
-    public static class ApplicationServiceExtension
-    {
+    public static class ApplicationServiceExtension    {
         public static IServiceCollection AddApplicationService(this IServiceCollection services)
         {
 
